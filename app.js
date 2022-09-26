@@ -67,7 +67,7 @@ function tie(userChoice, computerChoice){
     const userChoice_div =  document.getElementById(userChoice);
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} Tie  ${convertToWord(computerChoice)}${smallCompWord}. It's a draw!`;
     userChoice_div.classList.add('gray-glow');
-    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 350);
+    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 400);
 }
 
 function game(userChoice){
