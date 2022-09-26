@@ -1,0 +1,1 @@
+Changed fonts and added some glows. Copied the code from a site i saw lol.
